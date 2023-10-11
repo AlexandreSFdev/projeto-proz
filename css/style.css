@@ -8,3 +8,8 @@ body {
     max-height: 300px; /* Altura máxima desejada */
     margin: 0 auto; /* Centralizar a imagem horizontalmente */
 }
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
