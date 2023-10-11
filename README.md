@@ -5,4 +5,3 @@ Este projeto tem como objetivo a criação de um site de e-comerce com temática
 ### Rayanne de Souza
 ### Anderson Dias Ribeiro
 ### Alexandre Silberstein
-### Daiane Callegari
