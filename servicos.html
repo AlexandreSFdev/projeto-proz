@@ -4,15 +4,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pet Shop Mundo Cão</title>
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+    rel="stylesheet">
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #e3f2fd;">
             <div class="container-fluid">
                 <a class="navbar-brand">
                     <img src="img/cartoon_dog-puppet-farm-512.png" alt="Logo" width="23" height="35" class="d-inline-block align-text-top">
-                    Pet Shop Mundo Cão
+                    <strong>                    Pet Shop Mundo Cão</strong>
                 </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,41 +57,112 @@
           </nav>
     </header>
     <main>
-    <h2>Serviços Oferecidos</h2>
-    <br>
-    <h3>Serviço de Banho e Tosa</h3>
-    <p>
-        Nosso serviço de banho e tosa é realizado por profissionais experientes e dedicados que cuidarão do seu
-        animal de estimação com carinho e atenção. Utilizamos produtos de alta qualidade para garantir que seu pet
-        fique limpo, cheiroso e com a pelagem bem cuidada.
-    </p>
+    <div class="container-md">
+      <h2>Serviços Oferecidos</h2>
+      <br>
+      <h3>Serviço de Banho e Tosa</h3>
+      <p>
+          Nosso serviço de banho e tosa é realizado por profissionais experientes e dedicados que cuidarão do seu
+          animal de estimação com carinho e atenção. Utilizamos produtos de alta qualidade para garantir que seu pet
+          fique limpo, cheiroso e com a pelagem bem cuidada.
+      </p>
 
-    <h3>Consulta Veterinária</h3>
-    <p>
-        Oferecemos consultas veterinárias para garantir a saúde e o bem-estar do seu animal de estimação. Nossos
-        veterinários estão disponíveis para verificar a saúde geral do seu pet, fornecer orientações sobre nutrição e
-        vacinação, e tratar quaisquer problemas de saúde.
-    </p>
+      <h3>Consulta Veterinária</h3>
+      <p>
+          Oferecemos consultas veterinárias para garantir a saúde e o bem-estar do seu animal de estimação. Nossos
+          veterinários estão disponíveis para verificar a saúde geral do seu pet, fornecer orientações sobre nutrição e
+          vacinação, e tratar quaisquer problemas de saúde.
+      </p>
 
-    <h3>Hotel para Pets</h3>
-    <p>
-        Se você precisa de um lugar seguro e confortável para deixar seu pet enquanto está fora de casa, nosso hotel
-        para pets é a escolha perfeita. Nossos quartos espaçosos e áreas de lazer garantem que seu animal de estimação
-        tenha uma estadia agradável.
-    </p>
+      <h3>Hotel para Pets</h3>
+      <p>
+          Se você precisa de um lugar seguro e confortável para deixar seu pet enquanto está fora de casa, nosso hotel
+          para pets é a escolha perfeita. Nossos quartos espaçosos e áreas de lazer garantem que seu animal de estimação
+          tenha uma estadia agradável.
+      </p>
 
-    <h3>Loja de Produtos Pet</h3>
-    <p>
-        Em nossa loja de produtos pet, você encontrará uma variedade de alimentos, brinquedos, acessórios e produtos
-        de cuidado para seu animal de estimação. Temos tudo o que você precisa para manter seu pet feliz e saudável.
-    </p>
+      <h3>Loja de Produtos Pet</h3>
+      <p>
+          Em nossa loja de produtos pet, você encontrará uma variedade de alimentos, brinquedos, acessórios e produtos
+          de cuidado para seu animal de estimação. Temos tudo o que você precisa para manter seu pet feliz e saudável.
+      </p>
 
-    <h3>Serviço de Adestramento</h3>
-    <p>
-        Para pets que precisam de treinamento comportamental, oferecemos serviços de adestramento. Nossos treinadores
-        profissionais ajudarão a ensinar obediência e boas maneiras ao seu pet.
-    </p>
+      <h3>Serviço de Adestramento</h3>
+      <p>
+          Para pets que precisam de treinamento comportamental, oferecemos serviços de adestramento. Nossos treinadores
+          profissionais ajudarão a ensinar obediência e boas maneiras ao seu pet.
+      </p>
+    </div>
     </main>
+    <footer class="text-center text-white fixed-bottom" style="background-color: #e3f2fd;">
+      <!-- Grid container -->
+      <div class="container pt-1">
+        <!-- Section: Social media -->
+        <section class="mb-2" >
+          <!-- Facebook -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #000000;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-x"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #000000;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+          <!-- Whatsapp -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3d9c6b;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center pb-2" style="background-color: #e3f2fd; color: black;">
+        © 2023 Copyright:
+        <a class="text-black" href="index.html">Pet Shop Mundo Cão</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

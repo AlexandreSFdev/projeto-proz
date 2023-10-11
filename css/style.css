@@ -1,0 +1,10 @@
+body {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.carousel-item img {
+    max-width: 300px; /* Largura máxima desejada */
+    max-height: 300px; /* Altura máxima desejada */
+    margin: 0 auto; /* Centralizar a imagem horizontalmente */
+}
