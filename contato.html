@@ -21,6 +21,7 @@
     <link
     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
     rel="stylesheet">
+    <script src="script/script.js" defer></script>
   </head>
   <body>
     <header>
@@ -63,27 +64,32 @@
           <h2>Formulário de contato</h2>
             <div class="container mt-5">
                 <p>Preencha o formulário abaixo para entrar em contato conosco.</p>
-                <form action="cadastro.php" method="get" autocomplete="on">
+                <form action="" method="get" autocomplete="on">
                     <div class="form-group">
                         <label for="nome">Nome:</label>
                         <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite seu nome." required>
+                        <p id="nome-helper" class="helper-text">Mensagem de ajuda</p>
                     </div>
                     <div class="form-group">
                         <label for="email">E-mail:</label>
                         <input class="form-control" type="email" name="email" id="email" placeholder="Informe o seu e-mail." autocomplete="email" required>
+                        <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
                     </div>
                     <div class="form-group">
-                        <label for="tel">Telefone:</label>
-                        <input class="form-control" type="tel" 
-                        name="tel" id="tel" autocomplete="tel" pattern="^\(\d(2)\)\d(4,5)-\d(4)$" placeholder="(xx)xxxx-xxxx">
+                        <label for="telefone">Telefone:</label>
+                        <input class="form-control" type="telefone" 
+                        name="telefone" id="telefone" autocomplete="telefone" placeholder="(xx)xxxxx-xxxx" pattern="[0-9]+$" required>
+                        <p id="telefone-helper" class="helper-text">Mensagem de ajuda</p>
                     </div>
                     <div class="form-group">
                         <label for="assunto">Assunto:</label>
                         <input class="form-control" type="text" name="assunto" id="assunto" placeholder="Escreva aqui o assunto." required>
+                        <p id="assunto-helper" class="helper-text">Mensagem de ajuda</p>
                     </div>
                     <div class="form-group">
                         <label for="mensagem">Mensagem:</label>
                         <textarea class="form-control" name="mensagem" id="mensagem" rows="5" placeholder="Digite sua mensagem aqui." required></textarea>
+                        <p id="mensagem-helper" class="helper-text">Mensagem de ajuda</p>
                     </div>
                     <br>
                     <input class="btn btn-success" type="submit" value="Enviar">
