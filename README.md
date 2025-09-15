@@ -1,6 +1,6 @@
-# Projeto Proz Turma 15 - Grupo 2
+# Proz Project – Class 15 | Group
 
-Este projeto tem como objetivo a criação de um site de e-comerce com temática Pet shop. A cada sprint vamos atualizando os recursos e funcionalidades do site, de acordo com a nossa evolução durante o decorrer do curso.
-## Participantes:
+The objective of this project is to develop an e-commerce website with a pet shop theme. The website’s resources and functionalities will be continuously updated in each sprint, reflecting the team’s progress throughout the course
+
 ### Alexandre Silberstein
 <img src="/img/home-atual.png">
